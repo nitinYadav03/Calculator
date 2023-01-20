@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* 
+
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 5p;
+}
+
+.container {
+    margin:50px 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: slategrey;
+    box-shadow: 0 0 50px #ccc;
+    border-radius: 10px;
+    padding-bottom: 35px;
+}
+
+button {
+    margin: 3px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 80px;
+    background-color: #ece5e5;
+  cursor:pointer;
+}
+
+input {
+    width: 322px ;
+    font-size: 35px;
+    padding: 10px;
+    margin: 13px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.material-symbols-outlined {
+ 
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ecf0f3;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+}
+
+.container {
+  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.calculator {
+  background-color: #ecf0f3;
+  padding: 15px;
+  /* box-shadow: -3px 11px 17px -4px rgba(0,0,0,0.1); */
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 12px #ffffff,
+                    5px 5px 12px rgba(0, 0, 0, 0.16);
+  display: grid;
+  grid-template-columns: repeat(4, 68px);
+
+}
+
+input {
+  grid-column: span 4;
+  height: 70px;
+  width: 260px;
+  box-shadow: inset -5px -5px 12px #ffffff,
+              inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+  background-color: #ecf0f3;
+  border: none;
+  font-size: 50px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: end;
+  border-radius: 30px;
+  color: rgba(70, 70, 70, 70);
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+  box-shadow: -5px -5px 12px #ffffff,
+              5px 5px 12px rgba(0, 0, 0, 0.16);   
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+  font-size: 15px;
+  background-color: #ecf0f3;
+  cursor: pointer;
+  
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.material-symbols-outlined {
+
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
