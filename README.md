@@ -1,2 +1,2 @@
 # Calculator
-#using HTML,CSS,Javascript
+# Demo link: https://nitinyadav03.github.io/Calculator/
